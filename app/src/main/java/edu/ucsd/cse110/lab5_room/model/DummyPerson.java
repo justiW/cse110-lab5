@@ -1,6 +1,6 @@
 package edu.ucsd.cse110.lab5_room.model;
 
-public class DummyPerson extends IPerson {
+public class DummyPerson implements IPerson {
     private final String name;
     private final String[] notes;
 
