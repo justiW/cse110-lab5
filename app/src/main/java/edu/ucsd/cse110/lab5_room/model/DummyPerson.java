@@ -1,6 +1,4 @@
-package edu.ucsd.cse110.lab5ref.model;
-
-import java.util.List;
+package edu.ucsd.cse110.lab5_room.model;
 
 public class DummyPerson extends IPerson {
     private final String name;

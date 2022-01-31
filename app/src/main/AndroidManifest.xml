@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.ucsd.cse110.lab5ref">
+    package="edu.ucsd.cse110.lab5_room">
 
     <application
         android:allowBackup="true"
@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab5Ref">
         <activity
-            android:name=".PersonDetailActivity"
+            android:name="edu.ucsd.cse110.lab5_room.PersonDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="edu.ucsd.cse110.lab5_room.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

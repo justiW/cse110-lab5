@@ -1,4 +1,4 @@
-package edu.ucsd.cse110.lab5ref;
+package edu.ucsd.cse110.lab5_room;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import edu.ucsd.cse110.lab5ref.model.IPerson;
+import edu.ucsd.cse110.lab5_room.model.IPerson;
 
 public class PersonsViewAdapter extends RecyclerView.Adapter<PersonsViewAdapter.ViewHolder> {
     private final IPerson[] persons;
